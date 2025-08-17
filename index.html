@@ -1,181 +1,230 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S Rajesh - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-          S Rajesh
-          <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-            <a href="mailto:rajeshshank1803@gmail.com">rajeshshank1803@gmail.com</a>
-        </div>
-        <div style="clear:both;"></div>
-        <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +91 9150869293
-        </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
-        </div>
-      </div>    
-    </nav>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-    <!-- About Me -->
-    <section id="about-me" class="container">
-      <div>
-        <img src="https://cdn.pixabay.com/photo/2023/10/12/16/58/ai-generated-8311286_1280.jpg" class="profile_image"/>
-      </div>
-
-      <div>
-          <h1>
-            Hi, I'm S Rajesh! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
-          </h1>
-          <p>
-            Motivated Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning, with a track record of building ML models and full-stack applications. Proven ability to translate theory into impactful solutions. Seeking an entry-level software engineering role to apply data-driven techniques and engineering principles to real-world problems.
-          </p>
-      </div>
+<body>
+    <section class="navigation">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center py-4 mb-0">
+                <p class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-body-emphasis text-decoration-none">
+                    <span class="fs-2 text-light">Rajesh's Portfolio</span>
+                </p>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#skills"
+                            class="nav-link text-light text-decoration-underline">Skills</a></li>
+                    <li class="nav-item"><a href="#skills"
+                            class="nav-link text-light text-decoration-underline">Experience</a></li>
+                    <li class="nav-item"><a href="#projects"
+                            class="nav-link text-light text-decoration-underline">Projects</a></li>
+                    <li class="nav-item"><a href="#contact-me"
+                            class="nav-link text-light text-decoration-underline">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
-              
-    <!-- Skills -->
+    <section class="about" id="about">
+        <div class="container col-xxl-10 px-4 py-5 ">
+            <div class="row flex-lg-row-reverse align-items-center  py-5 about-highlight">
+                <div class="col-10 col-sm-12 col-lg-6"> <img src="./assets/headshot.png"
+                        class="d-block mx-lg-auto img-fluid pr-2" alt="Bootstrap Themes" width="300" height="500"
+                        loading="lazy" style="border-radius: 10%;"> </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I'm S Rajesh!</h1>
+                    <h1 class="display-6 text-body-emphasis lh-1 mb-3">Software Developer</h1>
+                    <p class="lead">I am an ambitious Computer Science
+                        engineering student specializing in
+                        Artificial Intelligence and Machine
+                        Learning dedicated to cultivating my
+                        passion for cutting-edge technologies and
+                        translating theoretical knowledge into
+                        practical solutions. Seeking an opportunity
+                        to contribute my skills and innovative
+                        mindset to a dynamic organization, I aim
+                        to harness Al and ML techniques to
+                        address complex challenges and drive
+                        advancements in various industries and
+                        strive to handle other technical expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="skills">
-      <h2>Skills</h2>
-      <div style="clear:both;"></div>
-
-      <div class="all_skills">
-        <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
-          <h4>HTML</h4>
-        </div>  
-
-        <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
-          <h4>JavaScript</h4>
+        <div class="container">
+            <div class="container d-inline-flex justify-content-center align-items-center gap-5 px-0">
+                <div class="container skills py-4" style="border-radius: 20px;">
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="feature-icon d-inline-flex justify-content-center align-items-center me-3"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    class="bi bi-puzzle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.5.5 0 0 0-.115.118l-.012.025L6.5 4.5v.003l.003.01q.005.015.036.053a.9.9 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.9.9 0 0 0 .271-.194.2.2 0 0 0 .036-.054l.003-.01v-.008l-.012-.025a.5.5 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.5.5 0 0 0 .115-.118l.012-.025.001-.006v-.003l-.003-.01a.2.2 0 0 0-.036-.053.9.9 0 0 0-.27-.194C8.91 11.1 8.49 11 8 11s-.912.1-1.19.24a.9.9 0 0 0-.271.194.2.2 0 0 0-.036.054l-.003.01v.002l.001.006.012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238z" />
+                                </svg></div>
+                            <div>
+                                <h2 class="text-body-emphasis">Skills</h2>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Programming Languages:</li>
+                                    <li class="fw-normal">Python, Java, JavaScript(ES6+)</li>
+                                    <hr />
+                                    <li class="fw-bold">Web Technologies:</li>
+                                    <li class="fw-normal">HTML5, CSS3, JavaScript(ES6+), Bootstrap</li>
+                                    <hr />
+                                    <li class="fw-bold">Database Systems:</li>
+                                    <li class="fw-normal">MySQL</li>
+                                    <hr />
+                                    <li class="fw-bold">Frameworks and Libraries:</li>
+                                    <li class="fw-normal">Numpy, Pandas, Sci-kit Learn, Matplotlib, TensorFlow, PyTorch,
+                                        OpenCV</li>
+                                    <hr />
+                                    <li class="fw-bold">Tools and Technologies:</li>
+                                    <li class="fw-normal">Git, Github, VSCode</li>
+                                    <hr />
+                                    <li class="fw-bold">Soft Skills:</li>
+                                    <li class="fw-normal">Problem-solving, Teamwork, Communication</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container skills py-4 border border-top-5" style="border-radius: 20px;">
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="feature-icon d-inline-flex justify-content-center align-items-center me-3"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    class="bi bi-pc-display" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z" />
+                                </svg></div>
+                            <div>
+                                <h2 class="text-body-emphasis">Experience</h2>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Data Science Intern - </li>
+                                    <li class="fw-semibold">Capabl India</li>
+                                    <li class="fw-normal">Gained hands-on experience in data analysis and
+                                        <br>statistical modeling techniques
+                                    </li>
+                                    <li class="fw-normal">Developed a predictive model to estimate taxi trip durations,
+                                        <br>achieving a accuracy of 94%.
+                                    </li>
+                                    <li class="fw-normal">Employed regularization techniques (Lasso,Ridge) <br>to reduce
+                                        overfitting and enhance model generalization.</li>
+                                    <hr />
+                                    <li class="fw-bold">Machine Learning Intern - </li>
+                                    <li class="fw-semibold">Thirumoolar IT Solutions</li>
+                                    <li class="fw-normal">Gained hands-on training in prompt engineering to optimize
+                                        <br>AI-driven solutions for software development and data analysis
+                                    </li>
+                                    <li class="fw-normal">Acquired practical experience in <br>data analytics to support
+                                        AI-driven solution development</li>
+                                    <li class="fw-normal">Designed ML models for classification tasks <br>using real
+                                        world datasets, focusing on explainability <br>and accuracy.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="skill">
-          <img src="html_finalprojimages\CSS3.png" alt="">
-          <h4>CSS3</h4>
-        </div>  
-        <div class="skill">
-          <img src="html_finalprojimages\icons8-python-48.png" alt="">
-          <h4>Python</h4>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages\java.png" alt="">
-          <h4>Java</h4>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages\numpy.png" alt="">
-          <h4>Numpy</h4>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages\pandas.png" alt="">
-          <h4>Pandas</h4>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages\matplotlib.png" alt="">
-          <h4>Matplotlib</h4>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages\scikit-learn.png" alt="">
-          <h4>Scikit-Learn</h4>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages\tensorflow.png" alt="">
-          <h4>Tensorflow</h4>
-        </div>
-        <div class="skill">
-          <img src="html_finalprojimages\Keras.png" alt="">
-          <h4>Keras</h4>
-        </div>
-        <!-- Add more skills here -->
-
-
-      </div>
     </section>
-          
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>
-        Projects
-      </h2>
-      <div style="clear:both;"></div>
-
-        <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>Privacy Preserving ECG Anomaly Detection System</h3>
-            <ul>
-              <li>Built a deep learning model using Federated Learning and Differential Privacy to classify ECG anomalies while preserving patient data confidentiality.</li>
-              <li>The system analyses patient ECG signals and classify them as Normal or Abnormal Signals</li>
-              <li>Achieved 97% accuracy on MIT-BIH dataset; reduced data exposure risk by 100% compared to centralized systems.</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Plant Leaf Disease Detection System</h3>
-            <ul>
-              <li>Designed and trained a CNN on 20K+ image dataset, reaching 94% classification accuracy on validation data.</li>
-              <li>Integrated real-time inference pipeline with OpenCV and deployed prototype for demonstration.</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Kidney Tumor Detection with Vision Transformer</h3>
-            <ul>
-              <li>Researched and benchmarked various ViT architectures on tumor datasets.</li>
-              <li>Produced a technical report comparing accuracy, performance, and attention map interpretability.</li>
-            </ul>
-          </div>
-    </div>
+    <br>
+    <br>
+    <section id="projects">
+        <div class="container">
+            <div class="container projects mx-10" style="border-radius: 20px;">
+                <div class="row py-5 row">
+                    <div class="col d-flex">
+                        <div
+                            class="feature-icon text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z" />
+                                <path
+                                    d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="fs-2 text-body-emphasis">Projects</h3>
+                            <ul class="list-unstyled">
+                                <li class="fw-bold">Privacy Preserving ECG Anomaly Detection System -
+                                <li class="fw-normal">Built a deep learning model using Federated Learning and
+                                    Differential
+                                    Privacy to classify ECG anomalies while preserving patient data confidentiality.
+                                </li>
+                                <li class="fw-normal">Achieved 97% accuracy on MIT-BIH dataset, reduced data exposure
+                                    risk
+                                    by 100% compared to
+                                    centralized systems.</li>
+                                </li>
+                                <hr />
+                                <li class="fw-bold">Plant Leaf Disease Detection using CNN -
+                                <li class="fw-normal">Designed and trained a CNN on 20K + image dataset, reaching 94%
+                                    classification accuracy on validation data.
+                                </li>
+                                <li class="fw-normal">Integrated real-time inference
+                                    pipeline with OpenCV and deployed prototype for demonstration.</li>
+                                <hr />
+                                <li class="fw-bold">Kidney Tumor Detection with Vision Transformers -
+                                <li>Researched and benchmarked various ViT architectures on tumor datasets.</li>
+                                <li>Produced a technical report comparing accuracy and performance.</li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <div style="clear:both;"></div>
-
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        
-      </div>
+    <section id="contact-me">
+        <div class="container">
+            <div class="container contact py-4 my-5" style="border-radius: 20px;">
+                <h2 class="text-body-emphasis text-center">Contact Me</h2>
+                <p class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                        <path
+                            d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                    </svg><a href="mailto:rajeshshank1803@gmail.com" class="text-decoration-none text-dark"><span> rajeshshank1803@gmail.com</span></a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg> +91 9150869293  
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                    </svg><a href="https://www.linkedin.com/in/rajesh-shankar-7842b4220/" class="text-decoration-none text-dark"> Linkedin</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg><a href="https://github.com/rjesh18/" class="text-decoration-none text-dark"> Github</a>
+                </p>
+            </div>
+        </div>
     </section>
+    <footer>
+        <div class="container text-center py-3">
+            <hr>
+            <p class="text-muted mb-0">© 2025 S Rajesh. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
-      </div>
-    </section>
-
-    <div class="iconbutton">
-      <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-      </a>
-    </div>
-
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3>Thanks for leaving a recommendation!</h3>
-      <button onclick="showPopup(false)">Ok</button>
-    </div>
-  </body>
 </html>
